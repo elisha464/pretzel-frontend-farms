@@ -1,16 +1,16 @@
 {
-  "short_name": "Goose Finance",
-  "name": "Goose Finance",
-  "description": "Farm EGG with LP Tokens",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "type": "image/x-icon",
-      "sizes": "256x256"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
+    "short_name": "Pretzelswap Finance",
+    "name": "Pretzelswap Finance",
+    "icons": [
+      {
+        "src": "./logo.png",
+        "sizes": "160x160",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "orientation": "portrait",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }
