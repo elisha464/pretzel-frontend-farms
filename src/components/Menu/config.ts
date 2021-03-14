@@ -12,11 +12,12 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.goosedefi.com/',
+        href: 'https://exchange.pretzelswapfinance.com/#/swap?outputCurrency=0x9066e87Bac891409D690cfEfA41379b34af06391', // to be updated before deployment
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.goosedefi.com/#/pool',
+        href:
+          'https://exchange.pretzelswapfinance.com/#/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x9066e87Bac891409D690cfEfA41379b34af06391', // to be updated before deployment
       },
     ],
   },
@@ -26,9 +27,9 @@ const config: MenuEntry[] = [
     href: '/farms',
   },
   {
-    label: 'Nests',
+    label: 'Wiesn',
     icon: 'PoolIcon',
-    href: '/nests',
+    href: '/wiesn',
   },
   // {
   //   label: 'Pools',
@@ -51,20 +52,16 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
+        href: 'https://pancakeswap.info/token/0x9066e87Bac891409D690cfEfA41379b34af06391', // to be updated before deployment
       },
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/goose-finance',
-      },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/goose-finance/',
-      },
-      {
-        label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
-      },
+      // {
+      //  label: 'CoinGecko',
+      //  href: 'https://www.coingecko.com/en/coins/pretzelswap-finance',
+      //  },
+      //  {
+      //  label: 'CoinMarketCap',
+      //  href: 'https://coinmarketcap.com/currencies/pretzelswap-finance/',
+      //  },
     ],
   },
   {
@@ -73,32 +70,25 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/goosedefi/',
+        href: 'https://github.com/pretzelswap/',
       },
       {
         label: 'Docs',
-        href: 'https://goosedefi.gitbook.io/goose-finance/',
+        href: 'https://pretzelswap-finance.gitbook.io/pretzelswap-finance/',
       },
       {
         label: 'Blog',
-        href: 'https://goosefinance.medium.com/',
+        href: 'https://pretzelswap-finance.medium.com/',
+      },
+      {
+        label: 'Roadmap',
+        href: 'https://pretzelswap-finance.gitbook.io/pretzelswap-finance/roadmap',
+      },
+      {
+        label: 'Team',
+        href: 'https://pretzelswap-finance.gitbook.io/pretzelswap-finance/team',
       },
     ],
-  },
-  {
-    label: 'Partnerships/IFO',
-    icon: 'GooseIcon',
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
-  },
-  {
-    label: 'Audit by Hacken',
-    icon: 'AuditIcon',
-    href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
-  },
-  {
-    label: 'Audit by CertiK',
-    icon: 'AuditIcon',
-    href: 'https://certik.org/projects/goose-finance',
   },
 ]
 
