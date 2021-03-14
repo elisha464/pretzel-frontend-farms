@@ -16,6 +16,7 @@ import useTokenBalance from '../../../hooks/useTokenBalance'
 import { getBalanceNumber } from '../../../utils/formatBalance'
 
 const StyledFarmStakingCard = styled(Card)`
+  background-image: url('/images/pretzel/2a.png');
   background-repeat: no-repeat;
   background-position: top right;
   min-height: 376px;
