@@ -61,11 +61,6 @@ const Home: React.FC = () => {
             {TranslateString(576, 'Pretzel Swap')}
           </span>
         </Heading>
-        <Text>
-          <span color="text">
-            {TranslateString(578, 'The most decentralized community driven exchange in all of Binance Smart Chain!')}
-          </span>
-        </Text>
       </Hero>
       <div>
         <Cards>
