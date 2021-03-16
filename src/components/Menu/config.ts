@@ -77,10 +77,6 @@ const config: MenuEntry[] = [
         href: 'https://pretzelswap-finance.gitbook.io/pretzelswap-finance/',
       },
       {
-        label: 'Blog',
-        href: 'https://pretzelswap-finance.medium.com/',
-      },
-      {
         label: 'Roadmap',
         href: 'https://pretzelswap-finance.gitbook.io/pretzelswap-finance/roadmap',
       },
