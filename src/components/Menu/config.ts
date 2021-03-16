@@ -74,15 +74,15 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Docs',
-        href: 'https://pretzelswap-finance.gitbook.io/pretzelswap-finance/',
+        href: 'https://pretzelswap.gitbook.io/pretzelswap-finance/',
       },
       {
         label: 'Roadmap',
-        href: 'https://pretzelswap-finance.gitbook.io/pretzelswap-finance/roadmap',
+        href: 'https://pretzelswap.gitbook.io/pretzelswap-finance/roadmap/roadmap',
       },
       {
         label: 'Team',
-        href: 'https://pretzelswap-finance.gitbook.io/pretzelswap-finance/team',
+        href: 'https://pretzelswap.gitbook.io/pretzelswap-finance/team/team',
       },
     ],
   },
