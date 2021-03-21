@@ -7,7 +7,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'PRTZL-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x8d0e47e3E58aA3a11a236BC7B94E624A2Cca7eb7',
+      56: '0x7bc177adeb0a556954d627eff4cb9d3e49f1ad1d',
     },
     tokenSymbol: 'PRTZL',
     tokenAddresses: {
@@ -22,7 +22,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'PRTZL-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xE399899978e32bA3bAdC75fce0B2D391b7ed6302',
+      56: '0xf6a03b6638c30549d6b2c6ffa8dcdd6cd2679718',
     },
     tokenSymbol: 'PRTZL',
     tokenAddresses: {
@@ -55,7 +55,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'PRTZL',
     lpAddresses: {
       97: '',
-      56: '0x8d0e47e3E58aA3a11a236BC7B94E624A2Cca7eb7', // PRTZL-BUSD LP
+      56: '0x7bc177adeb0a556954d627eff4cb9d3e49f1ad1d', // PRTZL-BUSD LP
     },
     tokenSymbol: 'PRTZL',
     tokenAddresses: {
@@ -71,7 +71,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '0x8d0e47e3E58aA3a11a236BC7B94E624A2Cca7eb7', // PRTZL-BUSD LP (BUSD-BUSD will ignore)
+      56: '0x7bc177adeb0a556954d627eff4cb9d3e49f1ad1d', // PRTZL-BUSD LP (BUSD-BUSD will ignore)
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {
