@@ -1,22 +1,18 @@
 import contracts from './contracts'
 import { FarmConfig, QuoteToken } from './types'
 
-const PRTZL_BUSD_LP_MAINNET = `0x8d0e47e3E58aA3a11a236BC7B94E624A2Cca7eb7`
-const PRTZL_BNB_LP_MAINNET = `0xE399899978e32bA3bAdC75fce0B2D391b7ed6302`  
-const PRTZL_MAINNET = `0x4c68ACc056176D1C196f7AA07916450CB734EC5a`  
-
 const farms: FarmConfig[] = [
   {
     risk: 5,
     lpSymbol: 'PRTZL-BUSD LP',
     lpAddresses: {
       97: '',
-      56: PRTZL_BUSD_LP_MAINNET,
+      56: '0x8d0e47e3E58aA3a11a236BC7B94E624A2Cca7eb7',
     },
     tokenSymbol: 'PRTZL',
     tokenAddresses: {
       97: '',
-      56: PRTZL_MAINNET,
+      56: '0xbb75BB4eBB6cE425D3E11d325720a61bb420d20e',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -26,12 +22,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'PRTZL-BNB LP',
     lpAddresses: {
       97: '',
-      56: PRTZL_BNB_LP_MAINNET,
+      56: '0xE399899978e32bA3bAdC75fce0B2D391b7ed6302',
     },
     tokenSymbol: 'PRTZL',
     tokenAddresses: {
       97: '',
-      56: PRTZL_MAINNET,
+      56: '0xbb75BB4eBB6cE425D3E11d325720a61bb420d20e',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -59,12 +55,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'PRTZL',
     lpAddresses: {
       97: '',
-      56: PRTZL_BUSD_LP_MAINNET, // PRTZL-BUSD LP
+      56: '0x8d0e47e3E58aA3a11a236BC7B94E624A2Cca7eb7', // PRTZL-BUSD LP
     },
     tokenSymbol: 'PRTZL',
     tokenAddresses: {
       97: '',
-      56: PRTZL_MAINNET,
+      56: '0xbb75BB4eBB6cE425D3E11d325720a61bb420d20e',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -75,7 +71,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: PRTZL_BUSD_LP_MAINNET, // PRTZL-BUSD LP (BUSD-BUSD will ignore)
+      56: '0x8d0e47e3E58aA3a11a236BC7B94E624A2Cca7eb7', // PRTZL-BUSD LP (BUSD-BUSD will ignore)
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {
