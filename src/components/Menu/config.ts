@@ -12,12 +12,12 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pretzelswapfinance.com/#/swap?outputCurrency=0x4c68ACc056176D1C196f7AA07916450CB734EC5a', 
+        href: 'https://exchange.pretzelswapfinance.com/#/swap?outputCurrency=0xbb75BB4eBB6cE425D3E11d325720a61bb420d20e', 
       },
       {
         label: 'Liquidity',
         href:
-          'https://exchange.pretzelswapfinance.com/#/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0x4c68ACc056176D1C196f7AA07916450CB734EC5a',
+          'https://exchange.pretzelswapfinance.com/#/add/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56/0xbb75BB4eBB6cE425D3E11d325720a61bb420d20e',
       },
     ],
   },
@@ -52,7 +52,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x4c68ACc056176D1C196f7AA07916450CB734EC5a', 
+        href: 'https://pancakeswap.info/token/0xbb75BB4eBB6cE425D3E11d325720a61bb420d20e', 
       },
       // {
       //  label: 'CoinGecko',
