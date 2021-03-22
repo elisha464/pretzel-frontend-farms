@@ -3,6 +3,7 @@ import { FarmConfig, QuoteToken } from './types'
 
 const farms: FarmConfig[] = [
   {
+    pid: 0,
     risk: 5,
     lpSymbol: 'PRTZL-BUSD LP',
     lpAddresses: {
@@ -18,6 +19,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
+    pid:1,
     risk: 5,
     lpSymbol: 'PRTZL-BNB LP',
     lpAddresses: {
@@ -33,6 +35,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
+    pid: 2, 
     risk: 3,
     lpSymbol: 'BNB-BUSD LP',
     lpAddresses: {
@@ -50,6 +53,7 @@ const farms: FarmConfig[] = [
   
   // pools
   {
+    pid: 3,
     risk: 5,
     isTokenOnly: true,
     lpSymbol: 'PRTZL',
@@ -66,6 +70,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
+    pid: 4, 
     risk: 1,
     isTokenOnly: true,
     lpSymbol: 'BUSD',
@@ -81,6 +86,6 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
-].map((farm, index) => ({ ...farm, pid: index }))
+]
 
 export default farms
