@@ -27,9 +27,9 @@ const config: MenuEntry[] = [
     href: '/farms',
   },
   {
-    label: 'Wiesn',
+    label: 'Beer Tent',
     icon: 'PoolIcon',
-    href: '/wiesn',
+    href: '/beertent',
   },
   // {
   //   label: 'Pools',
