@@ -29,7 +29,7 @@ const config: MenuEntry[] = [
   {
     label: 'Beer Tent',
     icon: 'PoolIcon',
-    href: '/beertent',
+    href: '/wiesn',
   },
   // {
   //   label: 'Pools',
